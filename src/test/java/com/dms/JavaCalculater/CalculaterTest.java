@@ -23,6 +23,6 @@ public class CalculaterTest extends TestCase {
     
     public void testSub()
     {
-        assertTrue( 2 == cal.Sub(4, 1) );
+        assertTrue( 2 == cal.Sub(4, 2) );
     }
 }
