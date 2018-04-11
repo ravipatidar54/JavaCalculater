@@ -35,4 +35,24 @@ public class CalculaterTest extends TestCase {
     {
         assertTrue( 2 == cal.SubDouble(4.5, 2.5) );
     }
+    
+    public void testAddMute()
+    {
+        assertTrue( 2 == cal.Add(1, 2) );
+    }
+    
+    public void testDivMute()
+    {
+        assertTrue( 2 == cal.Div(4, 3) );
+    }
+    
+    public void testMulMute()
+    {
+        assertTrue( 1 == cal.Mul(1, 2) );
+    }
+    
+    public void testSubMute()
+    {
+        assertTrue( 2 == cal.Sub(4, 3) );
+    }
 }
