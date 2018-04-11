@@ -8,6 +8,11 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	int a=4,b=2;
+    	Calculater cal = new Calculater();
+        System.out.println(cal.Add(a, b));
+        System.out.println(cal.Sub(a, b));
+        System.out.println(cal.Div(a, b));
+        System.out.println(cal.Mul(a, b));
     }
 }
