@@ -25,4 +25,14 @@ public class CalculaterTest extends TestCase {
     {
         assertTrue( 2 == cal.Sub(4, 2) );
     }
+    
+    public void testDivDouble()
+    {
+        assertTrue( 2 == cal.DivDouble(4.5, 0.0) );
+    }
+    
+    public void testSubDouble()
+    {
+        assertTrue( 2 == cal.SubDouble(4.5, 2.5) );
+    }
 }
