@@ -55,4 +55,9 @@ public class CalculaterTest extends TestCase {
     {
         assertTrue( 2 == cal.Sub(4, 3) );
     }
+	
+	public void testAddOperation()
+    {
+        assertTrue( 2 == cal.Add(2, 1) );
+    }
 }
