@@ -43,7 +43,7 @@ public class CalculaterTest extends TestCase {
     
     public void testDivMute()
     {
-        assertTrue( 2 == cal.Div(4, 3) );
+        assertTrue( 1 == cal.Div(4, 3) );
     }
     
     public void testMulMute()
